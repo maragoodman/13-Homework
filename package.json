@@ -1,0 +1,25 @@
+{
+  "name": "13-homework",
+  "version": "1.0.0",
+  "description": "This app is built leveraging a MVC (model view controller) framework and using MySQL, Node, Express, Handlebars and a \"built\" ORM. Using the app requires Node and MySQL to query and route data. The UI html is generated using Handlebars, web template framework.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maragoodman/13-Homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maragoodman/13-Homework/issues"
+  },
+  "homepage": "https://github.com/maragoodman/13-Homework#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
