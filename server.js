@@ -12,6 +12,7 @@ var exphbs = require("express-handlebars");
 // This sets up the basic properties for our express server
 // ==============================================================================
 
+var PORT = process.env.PORT || 8080;
 var app = express();
 
 app.use(express.static(__dirname + "/public"));
@@ -36,5 +37,6 @@ app.use("/", routes);
 
 // Set the port of our application
 // process.env.PORT lets the port be set by Heroku
-var PORT = process.env.PORT || 8080;
-app.listen(PORT);
+app.listen(PORT, function () {
+  console.log("Listening on port", PORT);
+});
