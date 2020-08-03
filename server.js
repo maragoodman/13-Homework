@@ -12,7 +12,7 @@ var exphbs = require("express-handlebars");
 // This sets up the basic properties for our express server
 // ==============================================================================
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 app.use(express.static(__dirname + "/public"));
